@@ -4,107 +4,110 @@
 	<head>
 		<title>Resume</title>
 		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Bootstrap core CSS -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Material Design Bootstrap -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
-        <!-- JQuery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Bootstrap tooltips -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-        <!-- Bootstrap core JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-        <!-- MDB core JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
-        <link rel="stylesheet" src="style.css">
-    </head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
+    <link rel="stylesheet" src="style.css">
+  </head>
+  
 	<body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://miro5460github.io/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/miro5460">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="interests.html">Interests</a>
-                    </li>    
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://miro5460github.io/">Home</a>
+          </li>
+          <li class="nav-item">
+						<a class="nav-link" href="posts.html">Posts</a>
+					</li>
+          <li class="nav-item">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/miro5460">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <h1 id="test" style="margin-top:50px; text-align:center; letter-spacing:12px">Resume</h1>
+    <h1 id="test" style="margin-top:50px; text-align:center; letter-spacing:12px">Resume</h1>
 
-        <div class="container" id="test" style="margin-top:20px; margin-bottom:200px">
-            <div class="row border-between" style="letter-spacing:1px">
-                <div class="col-sm-4">
-                    <h4>Education</h4>
-                    <span>Tufts University, Master of Science, Computer Science</span>
-                    <ul>
-                        <li>December 2019</li>
-                    </ul>
-                    <span>University of New Mexico, Bachelor of Science, Mechanical Engineering</span>
-                    <ul>
-                        <li>May 2012</li>
-                    </ul>
-                    <h4>Languages and Tools</h4>
-                    <ul>
-                        <li>Python</li>
-                        <li>C/C++</li>
-                        <li>x86 Assembly</li>
-                    </ul>
-                </div>
-                <div class="col-sm-8">
-                    <h4>Experience</h4>
-                    <span>Raytheon BBN, Network & Cyber Technologies, Research Engineer</span><br>
-                    <span>January 2020 - Present</span>
-                    <ul>
-                        <li>Implement rpm packaging for BWAM (automated malware detection and analysis software) for the purposes of open sourcing. The original version was implemented using a combination of Maven (Java) and pip (Python) and required users to manually fulfill dependency requirements. The updated verision does away with this by first automatically packaging the software's modules into rpm tarballs, that can then be used to automatically fulfill dependencies for and install BWAM on the target system.</li> 
-                        <li>Create a CubeSat simulation environment using opensource ground control and flight software. The satellite is simulated using a BeagleBoard Black runnig NASA's Core Flight Software and 42 Simulator, communicating with Ball Aerospace's COSMOS ground control system. </li>  
-                    </ul>
-                    <span>Raytheon BBN, Network & Cyber Technologies, Graduate Intern</span><br>
-                    <span>May 2019 - January 2020</span>
-                    <ul>
-                        <li>Part of the Project Ectoplasm that introduces BWAM, an automated malware detection and analysis software. Designed unit tests for hooked libc functions, as well as the IPC between the program in question and the symbolic execution engine (angr). Also, helped design and implement functional equivalence checking for the comparison of two symbolically represented programs.</li>
-                    </ul>
-                    <span>Tufts University, Teacher's Assistant, Department of Computer Science</span><br>
-                    <span>September 2018 - May 2019</span>
-                    <ul>
-                        <li>Held office hours to help students learn concepts for web programming and topics related to the design of both front and back end systems, as well as basic security practices.</li>
-                    </ul>
-                    <span>National Nuclear Security Administration, U.S. Deptartment of Energy, Student Intern</span><br>
-                    <span>August 2011 - May 2012</span>
-                    <ul>
-                        <li>Member of review team tasked with making revisions to the department's quality assurance plans and procedures. In particular, drafted and edited sections of quality assurance handbook.</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="container" id="test" style="margin-top:20px; margin-bottom:200px">
+      <div class="row border-between" style="letter-spacing:1px">
+        <div class="col-sm-4">
+          <h4>Education</h4>
+          <span>Tufts University, Master of Science, Computer Science</span>
+          <ul>
+            <li>December 2019</li>
+          </ul>
+          <span>University of New Mexico, Bachelor of Science, Mechanical Engineering</span>
+          <ul>
+            <li>May 2012</li>
+          </ul>
+          <h4>Languages and Tools</h4>
+          <ul>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>x86 Assembly</li>
+          </ul>
         </div>
-            
-        <footer class="page-footer font-small bg-dark darken-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 py-5">
-                        <div class="mb-5 flex-center">
-                            <a class="li-ic" href="https://github.com/miro5460">
-                                <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                            <a class="li-ic" href="https://www.linkedin.com/in/michael-robinson-b5310276">
-                                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-sm-8">
+          <h4>Experience</h4>
+          <span>Raytheon BBN, Network & Cyber Technologies, Research Engineer</span><br>
+          <span>January 2020 - Present</span>
+          <ul>
+            <li>Implement rpm packaging for BWAM (automated malware detection and analysis software) for the purposes of open sourcing. The original version was implemented using a combination of Maven (Java) and pip (Python) and required users to manually fulfill dependency requirements. The updated verision does away with this by first automatically packaging the software's modules into rpm tarballs, that can then be used to automatically fulfill dependencies for and install BWAM on the target system.</li> 
+            <li>Create a CubeSat simulation environment using opensource ground control and flight software. The satellite is simulated using a BeagleBoard Black runnig NASA's Core Flight Software and 42 Simulator, communicating with Ball Aerospace's COSMOS ground control system. </li>  
+          </ul>
+          <span>Raytheon BBN, Network & Cyber Technologies, Graduate Intern</span><br>
+          <span>May 2019 - January 2020</span>
+          <ul>
+            <li>Part of the Project Ectoplasm that introduces BWAM, an automated malware detection and analysis software. Designed unit tests for hooked libc functions, as well as the IPC between the program in question and the symbolic execution engine (angr). Also, helped design and implement functional equivalence checking for the comparison of two symbolically represented programs.</li>
+          </ul>
+          <span>Tufts University, Teacher's Assistant, Department of Computer Science</span><br>
+          <span>September 2018 - May 2019</span>
+          <ul>
+            <li>Held office hours to help students learn concepts for web programming and topics related to the design of both front and back end systems, as well as basic security practices.</li>
+          </ul>
+          <span>National Nuclear Security Administration, U.S. Deptartment of Energy, Student Intern</span><br>
+          <span>August 2011 - May 2012</span>
+          <ul>
+            <li>Member of review team tasked with making revisions to the department's quality assurance plans and procedures. In particular, drafted and edited sections of quality assurance handbook.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="page-footer font-small bg-dark darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <a class="li-ic" href="https://github.com/miro5460">
+                <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="li-ic" href="https://www.linkedin.com/in/michael-robinson-b5310276">
+                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+    </footer>
 	</body>
 </html>
