@@ -2,6 +2,47 @@ h1 {
     font-style: bold;
 }
 
+h4 {
+    text-decoration: underline;
+}
+
 p {
     letter-spacing: 0;
+}
+
+#test {
+    -webkit-animation: fadein 1s; /* Safari, Chrome */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+            animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.border-between > [class*='col-']:before {
+    background: #e3e3e3;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+    display: none;
 }
